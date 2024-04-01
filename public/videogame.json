@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Tekken",
+        "image": "Tekken.webp",
+        "description": "A high-octane fighting game featuring a vast roster of characters with unique fighting styles.",
+        "items": [
+            "Iron Fist Trophy",
+            "Martial Arts Gi",
+            "Fighter's Gloves"
+        ]
+    },
+    {
+        "name": "Elden Ring",
+        "image": "Eldenring.webp",
+        "description": "Embark on a quest in the Lands Between, guided by grace to brandish the power of the Elden Ring.",
+        "items": [
+            "Tarnished's Greatsword",
+            "Rune of the Elden Ring",
+            "Spirit Ashes"
+        ]
+    },
+    {
+        "name": "Deadpool",
+        "image": "Deadpool.jpeg",
+        "description": "Jump into the chaotic world of Deadpool, where humor and action collide in explosive fashion.",
+        "items": [
+            "Katana Swords",
+            "Chimichanga",
+            "Teleportation Device"
+        ]
+    },
+    {
+        "name": "Minecraft",
+        "image": "Minecraft.webp",
+        "description": "A game that puts your creativity to the test, allowing you to build, explore, and survive in a blocky, procedurally generated 3D world.",
+        "items": [
+            "Diamond Pickaxe",
+            "Crafting Table",
+            "Ender Pearl"
+        ]
+    },
+    {
+        "name": "Call of Duty",
+        "image": "Cod.webp",
+        "description": "Experience the gritty realism and cinematic intensity of Call of Duty's iconic battles and campaigns.",
+        "items": [
+            "Combat Knife",
+            "Night Vision Goggles",
+            "Assault Rifle"
+        ]
+    },
+    {
+        "name": "FIFA",
+        "image": "Fifa.webp",
+        "description": "The world's most popular football game brings the thrill of the sport to your screen, featuring leagues, teams, and players from around the globe.",
+        "items": [
+            "Golden Boot",
+            "Football",
+            "Team Jersey"
+        ]
+    },
+    {
+        "name": "Star Wars",
+        "image": "Starwars.jpeg",
+        "description": "Explore the galaxy in Star Wars, engaging in epic battles and experiencing the saga of Jedi, Sith, and the force.",
+        "items": [
+            "Lightsaber",
+            "Rebel Pilot Helmet",
+            "Droid Companion"
+        ]
+    },
+    {
+        "name": "Jumanji",
+        "image": "Jumanji.jpeg",
+        "description": "A supernatural game that offers a perilous adventure to those who dare to play, with jungle hazards and animal stampedes.",
+        "items": [
+            "Board Game",
+            "Rhino Figurine",
+            "Jungle Map"
+        ]
+    },
+    {
+        "name": "Evil West",
+        "image": "Evil west.jpeg",
+        "description": "Fight through hordes of supernatural enemies in the Wild West as a vampire hunter.",
+        "items": [
+            "Revolver",
+            "Vampire Hunter's Kit",
+            "Silver Bullets"
+        ]
+    }
+]

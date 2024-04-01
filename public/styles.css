@@ -1,0 +1,125 @@
+/* Modal background */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 2; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.6); 
+}
+
+/* Modal content */
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  margin: 10% auto; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  width: 40%; 
+}
+/* Form styling */
+#addItemForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#addItemForm label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+#addItemForm input[type="text"],
+#addItemForm input[type="file"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#addItemForm button {
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#addItemForm button:hover {
+  background-color: #004494;
+}
+
+/* Supply inputs specifically */
+#suppliesContainer {
+  margin-bottom: 20px;
+}
+
+#imagePreview {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+#imageGallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.w3-quarter {
+  flex: 1;
+  min-width: 220px;
+}
+
+.w3-quarter img {
+  border-radius: 8px;
+  transition: transform 0.2s; /* Animation */
+}
+
+.w3-quarter img:hover {
+  transform: scale(1.05); /* (110% zoom - Note: if the zoom is too large, it will blur.) */
+}
+/* Style for the "+" button to add a new item */
+#showAddItemModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px; /* Distance from bottom */
+  right: 20px; /* Distance from right */
+  width: 60px; /* Button width */
+  height: 60px; /* Button height */
+  background-color: #007bff; /* Button color - consider using your college colors */
+  color: white; /* Text color */
+  border-radius: 50%; /* Circular shape */
+  font-size: 30px; /* Text size */
+  text-align: center;
+  text-decoration: none; /* Remove underline from link */
+  z-index: 3; /* Ensure it's above other content */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+#showAddItemModal:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+@media (max-width: 800px) {
+  .column {
+      flex: 50%;
+      max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+      flex: 100%;
+      max-width: 100%;
+  }
+}

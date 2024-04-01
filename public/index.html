@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="w3-row-padding w3-section" id="imageGallery">
+    <!-- Images will be loaded here by script.js -->
+</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="modalInfo">Some text in the Modal..</p>
+  </div>
+</div>
+<!-- '+' Link/Button for Adding Items -->
+<div class="add-item-button">
+  <a href="#" id="showAddItemModal">+</a>
+</div>
+
+<!-- Add Item Modal -->
+<div id="addItemModal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <form id="addItemForm">
+      <h2>Add New Item</h2>
+      <label for="itemName">Item Name:</label>
+      <input type="text" id="itemName" name="itemName" required><br><br>
+      
+      <label for="itemImage">Select An Image:</label>
+      <input type="file" id="itemImage" name="itemImage" accept="image/*" required><br>
+      <img id="imagePreview" src="" alt="Image preview" style="max-width: 100%; display: none;"><br><br>
+      
+      <div id="suppliesContainer">
+        <label>Items:</label>
+        <input type="text" name="items[]" required>
+      </div>
+      <button type="button" id="addSupply">Add Item</button><br><br>
+      
+      <button type="submit">Save</button>
+      <button type="button" id="cancelAddItem">Cancel</button>
+    </form>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
