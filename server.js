@@ -26,17 +26,15 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-// Define Joi schema to validate incoming data
 const gameSchema = Joi.object({
   name: Joi.string().min(3).max(30).required(),
   description: Joi.string().min(5).required(),
-  items: Joi.array().items(Joi.string()).required(), // Expecting items as an array of strings
-  // Note: Image validation is handled separately by Multer
+  items: Joi.array().items(Joi.string()).required(), 
+  
 });
 
-// Endpoint for adding a new game
 app.post('/add-game', upload.single('itemImage'), (req, res) => {
-  // Validate incoming data with Joi
+  
   const { error, value } = gameSchema.validate({
     name: req.body.name,
     description: req.body.description,
